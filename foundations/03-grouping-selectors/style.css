@@ -1,0 +1,14 @@
+#clickme, #no-clickme {
+    border-radius: 0%;
+    font-size: 28px;
+    font-family: Helvetica, "Times New Romans", sans-serif;
+}
+
+#clickme {
+    background-color: black;
+    color: white;
+}
+
+#no-clickme {
+    background-color: yellow;
+}

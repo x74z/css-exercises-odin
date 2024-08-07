@@ -3,40 +3,45 @@ body {
 }
 
 .para,
-.small-para {
+.para.small-para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
+  font-weight: bolder;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
+.para.small-para {
+  font-size: 16px;
 }
 
 .para {
   font-size: 22px;
 }
 
-.confirm {
+.button.cancel,
+.button.confirm {
+  font-size: 25px;
+  border-radius: 0%;
+  border-color: black;
+}
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
-.button {
+.button.cancel{
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-size: 20px;
+  font-weight: lighter;
 }
 
-.child {
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
-  font-size: 14px;
+  font-size: 16px;
 }
 
-div.text {
+.text {
   color: rgb(0, 0, 0);
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 100;
 }
